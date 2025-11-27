@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Personalizar Fundas - GTG</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#004A99",
+            "primary-accent": "#007BFF",
+            "background-light": "#FFFFFF",
+            "background-dark": "#101622",
+            "text-light": "#333333",
+            "text-dark": "#F0F2F5",
+            "section-light": "#F0F2F5",
+            "section-dark": "#19212e",
+          },
+          fontFamily: {
+            "display": ["Manrope", "sans-serif"]
+          },
+          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+        },
+      },
+    }
+</script>
+</head>
+<body class="font-display bg-background-light text-text-light dark:bg-background-dark dark:text-text-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-50 w-full bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="container mx-auto px-4">
+<div class="flex items-center justify-between whitespace-nowrap border-b border-solid border-section-light dark:border-section-dark px-2 sm:px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="size-6 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold leading-tight tracking-[-0.015em] text-text-light dark:text-text-dark">GTG</h2>
+</div>
+<div class="flex items-center gap-4">
+<a class="text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary-accent" href="index.html">Inicio</a>
+<a class="text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary-accent" href="nosotros.html">Nosotros</a>
+<a class="text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary-accent" href="productos.html">Productos</a>
+<a class="text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary-accent" href="calidad.html">Calidad</a>
+<a class="text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary-accent" href="contacto.html">Contacto</a>
+
+<div class="border-l border-section-light dark:border-section-dark pl-4 ml-4">
+<a class="relative flex items-center gap-2 text-sm font-medium hover:text-primary dark:hover:text-primary-accent" href="#">
+<span class="material-symbols-outlined">shopping_cart</span>
+<span class="hidden sm:inline" href="carrito.html">Carrito</span>
+<span class="absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-primary-accent text-xs font-bold text-white">1</span>
+</a>
+</div>
+<button class="md:hidden p-2 rounded-lg hover:bg-section-light dark:hover:bg-section-dark">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<section class="py-12 sm:py-16">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
+<div class="flex items-center justify-center p-8 bg-section-light dark:bg-section-dark rounded-xl sticky top-24 h-[calc(100vh-8rem)] min-h-[500px]">
+<div class="relative w-full max-w-sm">
+<img alt="Vista previa de funda stand-up" class="w-full h-auto drop-shadow-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIEwMp1SOq-0aBlJegIXf_GUoqFhLPH2mNNqsQvgBfD128nsbKZGo5MRKMf6tMePd5kZeen1rDfAXfLxuoOYllweIkY3bDohzVnDzZUTPBg6HY0tcG1iMRF6eN8JuRTkhlxBG9CQAw7QdE3bRAiYh6WqqrjQZf92YowdVqM1WLV-7Vwf8TmuDBXgA6meNX0jr9zbAcPINx6JmwJP7Z1G70Gx7s84izaUgca0bHNd2oTpfWdiIwowHCULhwgHUWmRbu-VrSMShtneQN"/>
+</div>
+</div>
+<div class="flex flex-col py-8">
+<div class="mb-8">
+<a class="inline-flex items-center gap-2 text-sm text-primary dark:text-primary-accent font-medium mb-2" href="#"><span class="material-symbols-outlined">arrow_back</span> Volver a Productos</a>
+<h1 class="text-4xl font-bold leading-tight tracking-[-0.015em] text-text-light dark:text-text-dark sm:text-5xl">Personalizar Fundas</h1>
+<p class="mt-3 text-lg text-text-light/80 dark:text-text-dark/80">Ajuste cada detalle para crear el empaque perfecto para su producto.</p>
+</div>
+<div class="space-y-6">
+<div>
+<div class="flex justify-between items-center">
+<label class="block text-sm font-medium text-text-light dark:text-text-dark/80" for="ancho">Ancho (cm)</label>
+<span id="ancho-value" class="text-sm font-semibold text-primary dark:text-primary-accent">15 cm</span>
+</div>
+<input class="w-full h-2 bg-section-light rounded-lg appearance-none cursor-pointer dark:bg-section-dark mt-1 accent-primary" id="ancho" max="50" min="5" type="range" value="15"/>
+</div>
+<div>
+<div class="flex justify-between items-center">
+<label class="block text-sm font-medium text-text-light dark:text-text-dark/80" for="alto">Alto (cm)</label>
+<span id="alto-value" class="text-sm font-semibold text-primary dark:text-primary-accent">25 cm</span>
+</div>
+<input class="w-full h-2 bg-section-light rounded-lg appearance-none cursor-pointer dark:bg-section-dark mt-1 accent-primary" id="alto" max="70" min="10" type="range" value="25"/>
+</div>
+<div>
+<div class="flex justify-between items-center">
+<label class="block text-sm font-medium text-text-light dark:text-text-dark/80" for="calibre">Calibre (micrones)</label>
+<span id="calibre-value" class="text-sm font-semibold text-primary dark:text-primary-accent">100 micrones</span>
+</div>
+<input class="w-full h-2 bg-section-light rounded-lg appearance-none cursor-pointer dark:bg-section-dark mt-1 accent-primary" id="calibre" max="200" min="30" type="range" value="100"/>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block text-sm font-medium text-text-light dark:text-text-dark/80" for="material">Material</label>
+<select class="mt-1 block w-full rounded-lg border-section-light dark:border-section-dark bg-background-light dark:bg-background-dark py-2 px-3 shadow-sm focus:border-primary focus:ring-primary text-sm" id="material">
+<option>Polietileno (PE)</option>
+<option>Polipropileno (PP)</option>
+<option>Compostable (PLA)</option>
+<option>Laminado</option>
+</select>
+</div>
+<div>
+<label class="block text-sm font-medium text-text-light dark:text-text-dark/80" for="tipo-sello">Tipo de Sello</label>
+<select class="mt-1 block w-full rounded-lg border-section-light dark:border-section-dark bg-background-light dark:bg-background-dark py-2 px-3 shadow-sm focus:border-primary focus:ring-primary text-sm" id="tipo-sello">
+<option>Sello Térmico</option>
+<option>Zipper</option>
+<option>Sello de Seguridad</option>
+</select>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-text-light dark:text-text-dark/80" for="color-principal">Color Principal</label>
+<div class="mt-1 flex items-center gap-3">
+<input class="w-10 h-10 p-0 border-0 rounded-lg bg-transparent cursor-pointer appearance-none" id="color-principal" type="color" value="#004A99"/>
+<div class="flex gap-2">
+<button class="w-8 h-8 rounded-full bg-white border-2 border-primary ring-2 ring-primary-accent"></button>
+<button class="w-8 h-8 rounded-full bg-gray-900 border-2 border-transparent"></button>
+<button class="w-8 h-8 rounded-full bg-red-600 border-2 border-transparent"></button>
+<button class="w-8 h-8 rounded-full bg-green-600 border-2 border-transparent"></button>
+<button class="w-8 h-8 rounded-full bg-yellow-400 border-2 border-transparent"></button>
+</div>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-text-light dark:text-text-dark/80" for="cantidad">Cantidad</label>
+<input class="mt-1 block w-full rounded-lg border-section-light dark:border-section-dark bg-background-light dark:bg-background-dark py-2 px-3 shadow-sm focus:border-primary focus:ring-primary text-sm" id="cantidad" min="1000" step="100" type="number" value="5000"/>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-section-light dark:border-section-dark">
+<div class="flex justify-between items-center mb-4">
+<p class="text-lg font-medium">Precio Estimado:</p>
+<p id="precio-estimado" class="text-2xl font-bold text-primary dark:text-primary-accent">$1,250.00</p>
+</div>
+<button class="w-full bg-primary text-white font-bold py-3 px-6 rounded-lg hover:bg-primary-accent transition-colors text-lg flex items-center justify-center gap-2">
+<span class="material-symbols-outlined">add_shopping_cart</span>
+                  Agregar al Carrito
+                </button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-gray-800 text-white dark:bg-background-dark border-t border-section-dark">
+<div class="container mx-auto px-4 py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="col-span-1 md:col-span-2">
+<h3 class="text-lg font-bold">GTG</h3>
+<p class="mt-2 text-sm text-gray-400 max-w-md">Líderes en soluciones de empaques flexibles, comprometidos con la calidad, innovación y sostenibilidad para potenciar tu marca.</p>
+</div>
+<div>
+<h4 class="font-semibold tracking-wider uppercase">Enlaces</h4>
+<ul class="mt-4 space-y-2 text-sm">
+<li><a class="text-gray-400 hover:text-white" href="#">Productos</a></li>
+<li><a class="text-gray-400 hover:text-white" href="#">Nosotros</a></li>
+<li><a class="text-gray-400 hover:text-white" href="#">Calidad</a></li>
+<li><a class="text-gray-400 hover:text-white" href="#">Contacto</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-semibold tracking-wider uppercase">Contacto</h4>
+<ul class="mt-4 space-y-2 text-sm">
+<li class="flex items-start gap-2 text-gray-400">
+<span class="material-symbols-outlined text-lg mt-0.5">location_on</span>
+<span>Zona Industrial, Santo Domingo, RD</span>
+</li>
+<li class="flex items-start gap-2 text-gray-400">
+<span class="material-symbols-outlined text-lg mt-0.5">call</span>
+<span>(809) 555-1234</span>
+</li>
+<li class="flex items-start gap-2 text-gray-400">
+<span class="material-symbols-outlined text-lg mt-0.5">email</span>
+<span>info@gtg.com.do</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="mt-8 border-t border-gray-700 pt-6 text-center text-sm text-gray-500">
+<p>© 2024 GTG (Grupo Notions RD). Todos los derechos reservados.</p>
+</div>
+</div>
+</footer>
+</div>
+</div>
+
+<!-- ✅ JAVASCRIPT AGREGADO -->
+<script>
+  function updateValue(inputId, labelId, suffix="") {
+    const input = document.getElementById(inputId);
+    const label = document.getElementById(labelId);
+
+    input.addEventListener("input", () => {
+      label.textContent = `${input.value} ${suffix}`;
+      updatePrice();
+    });
+  }
+
+  updateValue("ancho", "ancho-value", "cm");
+  updateValue("alto", "alto-value", "cm");
+  updateValue("calibre", "calibre-value", "micrones");
+
+  function updatePrice() {
+    const ancho = parseInt(document.getElementById("ancho").value);
+    const alto = parseInt(document.getElementById("alto").value);
+    const calibre = parseInt(document.getElementById("calibre").value);
+    const cantidad = parseInt(document.getElementById("cantidad").value);
+
+    let precio = (ancho * alto * calibre * 0.002) * cantidad;
+    precio = Math.max(precio, 1000);
+
+    document.querySelector("#precio-estimado").textContent = 
+      "$" + precio.toLocaleString("es-DO", { minimumFractionDigits: 2 });
+  }
+
+  document.getElementById("cantidad").addEventListener("input", updatePrice);
+  updatePrice();
+</script>
+
+</body>
+</html>

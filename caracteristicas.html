@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Características - GTG</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#004A99",
+            "primary-accent": "#007BFF",
+            "background-light": "#FFFFFF",
+            "background-dark": "#101622",
+            "text-light": "#333333",
+            "text-dark": "#F0F2F5",
+            "section-light": "#F0F2F5",
+            "section-dark": "#19212e",
+            "border-light": "#E0E0E0",
+            "border-dark": "#3a4351"
+          },
+          fontFamily: {
+            "display": ["Manrope", "sans-serif"]
+          },
+          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+</head>
+<body class="font-display bg-background-light text-text-light dark:bg-background-dark dark:text-text-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-50 w-full bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="container mx-auto px-4">
+<div class="flex items-center justify-between whitespace-nowrap border-b border-solid border-section-light dark:border-section-dark px-2 sm:px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="size-6 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold leading-tight tracking-[-0.015em] text-text-light dark:text-text-dark">GTG</h2>
+</div>
+<div class="flex items-center gap-4">
+<nav class="hidden md:flex flex-1 justify-end items-center gap-8">
+<a class="text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary-accent" href="#">Inicio</a>
+<a class="text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary-accent" href="#">Productos</a>
+<a class="text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary-accent" href="#">Nosotros</a>
+<a class="text-sm font-medium text-primary dark:text-primary-accent" href="#">Características</a>
+<a class="text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary-accent" href="#">Contacto</a>
+</nav>
+<div class="border-l border-section-light dark:border-section-dark pl-4 ml-4">
+<a class="relative flex items-center gap-2 text-sm font-medium text-primary dark:text-primary-accent" href="#">
+<span class="material-symbols-outlined">shopping_cart</span>
+<span class="hidden sm:inline">Carrito</span>
+<span class="absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-primary-accent text-xs font-bold text-white">2</span>
+</a>
+</div>
+<button class="md:hidden p-2 rounded-lg hover:bg-section-light dark:hover:bg-section-dark">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<section class="py-16 md:py-24 bg-section-light dark:bg-section-dark">
+<div class="container mx-auto px-4 text-center">
+<h1 class="text-4xl md:text-5xl font-extrabold text-text-light dark:text-text-dark tracking-tight">Innovación y Eficiencia en Cada Empaque</h1>
+<p class="mt-4 max-w-3xl mx-auto text-lg text-text-light/80 dark:text-text-dark/80">Descubra cómo nuestra dedicación a la tecnología, calidad y servicio nos permite ofrecer soluciones de empaque que superan las expectativas.</p>
+</div>
+</section>
+<section class="py-16 md:py-24">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-background-light dark:bg-section-dark p-8 rounded-xl shadow-lg border border-border-light dark:border-border-dark flex flex-col items-center text-center">
+<div class="flex items-center justify-center h-16 w-16 rounded-full bg-primary/10 text-primary dark:bg-primary-accent/10 dark:text-primary-accent mb-6">
+<span class="material-symbols-outlined text-4xl">precision_manufacturing</span>
+</div>
+<h3 class="text-2xl font-bold text-text-light dark:text-text-dark mb-3">Tecnología de Vanguardia</h3>
+<p class="text-text-light/80 dark:text-text-dark/80">Utilizamos maquinaria de última generación y procesos automatizados para garantizar la máxima precisión, eficiencia y consistencia en cada producto que fabricamos.</p>
+</div>
+<div class="bg-background-light dark:bg-section-dark p-8 rounded-xl shadow-lg border border-border-light dark:border-border-dark flex flex-col items-center text-center">
+<div class="flex items-center justify-center h-16 w-16 rounded-full bg-primary/10 text-primary dark:bg-primary-accent/10 dark:text-primary-accent mb-6">
+<span class="material-symbols-outlined text-4xl">layers</span>
+</div>
+<h3 class="text-2xl font-bold text-text-light dark:text-text-dark mb-3">Materiales de Alta Calidad</h3>
+<p class="text-text-light/80 dark:text-text-dark/80">Seleccionamos rigurosamente materiales que ofrecen durabilidad, seguridad y sostenibilidad, asegurando la protección óptima de sus productos y el cumplimiento de normativas.</p>
+</div>
+<div class="bg-background-light dark:bg-section-dark p-8 rounded-xl shadow-lg border border-border-light dark:border-border-dark flex flex-col items-center text-center">
+<div class="flex items-center justify-center h-16 w-16 rounded-full bg-primary/10 text-primary dark:bg-primary-accent/10 dark:text-primary-accent mb-6">
+<span class="material-symbols-outlined text-4xl">draw</span>
+</div>
+<h3 class="text-2xl font-bold text-text-light dark:text-text-dark mb-3">Personalización Flexible</h3>
+<p class="text-text-light/80 dark:text-text-dark/80">Nos adaptamos a sus necesidades específicas con una amplia gama de opciones de tamaño, forma, impresión y materiales para crear el empaque perfecto para su marca.</p>
+</div>
+<div class="bg-background-light dark:bg-section-dark p-8 rounded-xl shadow-lg border border-border-light dark:border-border-dark flex flex-col items-center text-center lg:col-start-2">
+<div class="flex items-center justify-center h-16 w-16 rounded-full bg-primary/10 text-primary dark:bg-primary-accent/10 dark:text-primary-accent mb-6">
+<span class="material-symbols-outlined text-4xl">verified</span>
+</div>
+<h3 class="text-2xl font-bold text-text-light dark:text-text-dark mb-3">Control de Calidad Riguroso</h3>
+<p class="text-text-light/80 dark:text-text-dark/80">Nuestro compromiso con los más altos estándares se refleja en cada etapa del proceso, desde la materia prima hasta el producto final, garantizando empaques impecables.</p>
+</div>
+<div class="bg-background-light dark:bg-section-dark p-8 rounded-xl shadow-lg border border-border-light dark:border-border-dark flex flex-col items-center text-center">
+<div class="flex items-center justify-center h-16 w-16 rounded-full bg-primary/10 text-primary dark:bg-primary-accent/10 dark:text-primary-accent mb-6">
+<span class="material-symbols-outlined text-4xl">local_shipping</span>
+</div>
+<h3 class="text-2xl font-bold text-text-light dark:text-text-dark mb-3">Logística y Abastecimiento</h3>
+<p class="text-text-light/80 dark:text-text-dark/80">Contamos con un sistema de gestión de inventario y entrega eficiente para asegurar que sus pedidos lleguen a tiempo, optimizando su cadena de suministro.</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-gray-800 text-white dark:bg-background-dark border-t border-section-dark">
+<div class="container mx-auto px-4 py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="col-span-1 md:col-span-2">
+<h3 class="text-lg font-bold">GTG</h3>
+<p class="mt-2 text-sm text-gray-400 max-w-md">Líderes en soluciones de empaques flexibles, comprometidos con la calidad, innovación y sostenibilidad para potenciar tu marca.</p>
+</div>
+<div>
+<h4 class="font-semibold tracking-wider uppercase">Enlaces</h4>
+<ul class="mt-4 space-y-2 text-sm">
+<li><a class="text-gray-400 hover:text-white" href="#">Productos</a></li>
+<li><a class="text-gray-400 hover:text-white" href="#">Nosotros</a></li>
+<li><a class="text-gray-400 hover:text-white" href="#">Calidad</a></li>
+<li><a class="text-gray-400 hover:text-white" href="#">Contacto</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-semibold tracking-wider uppercase">Contacto</h4>
+<ul class="mt-4 space-y-2 text-sm">
+<li class="flex items-start gap-2 text-gray-400">
+<span class="material-symbols-outlined text-lg mt-0.5">location_on</span>
+<span>Zona Industrial, Santo Domingo, RD</span>
+</li>
+<li class="flex items-start gap-2 text-gray-400">
+<span class="material-symbols-outlined text-lg mt-0.5">call</span>
+<span>(809) 555-1234</span>
+</li>
+<li class="flex items-start gap-2 text-gray-400">
+<span class="material-symbols-outlined text-lg mt-0.5">email</span>
+<span>info@gtg.com.do</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="mt-8 border-t border-gray-700 pt-6 text-center text-sm text-gray-500">
+<p>© 2024 GTG (Grupo Notions RD). Todos los derechos reservados.</p>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
